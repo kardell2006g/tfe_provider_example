@@ -51,4 +51,16 @@ resource "tfe_team_access" "test" {
   team_id = tfe_team.test.id
   workspace_id = each.value
 }
+  
+  
+  resource "tfe_project" "test" {
+  name         = var.project
+  organization = var.tf_organization
+}
+
+resource "tfe_team_project_access" "admin" {
+  access       = "admin"
+  team_id      = tfe_team.test.id
+  project_id   = tfe_project.test.id
+}
 
