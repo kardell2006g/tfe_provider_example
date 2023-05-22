@@ -1,7 +1,7 @@
 
 variable "tf_hostname"{
 type = string
-default = "https://app.terraform.io"
+default = "app.terraform.io"
 }
 
 variable "tf_organization" {
