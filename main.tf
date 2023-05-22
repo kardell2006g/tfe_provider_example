@@ -13,15 +13,15 @@ terraform {
   }
 }
 
-variable "tf_hostname"{
-type = string
-default = "https://app.terraform.io"
-
 # https://registry.terraform.io/providers/hashicorp/tfe/latest/docs
 provider "tfe" {
   hostname = var.tf_hostname
 }
 
+
+variable "tf_hostname"{
+type = string
+default = "https://app.terraform.io"
 
 variable "tf_organization" {
   type = string
