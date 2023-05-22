@@ -21,7 +21,7 @@ provider "tfe" {
 
 variable "tf_organization" {
   type = string
-  default = "Pyrocumulus"
+  default = "gekk0"
 }
 
 variable "tf_workspaces" {
