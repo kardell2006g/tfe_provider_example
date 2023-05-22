@@ -54,7 +54,7 @@ resource "tfe_team_access" "test" {
   
   
   resource "tfe_project" "test" {
-  name         = var.project
+  name         = var.tf_project
   organization = var.tf_organization
 }
 
