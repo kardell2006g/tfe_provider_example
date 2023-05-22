@@ -9,6 +9,11 @@ variable "tf_organization" {
   default = "gekk0"
 }
 
+variable "tf_project" {
+  type = string
+  default = "tfe_pro"
+}
+
 variable "tf_workspaces" {
   type = set(string)
   default = ["workspaceA", "workspaceB",
