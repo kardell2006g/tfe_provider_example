@@ -2,10 +2,10 @@
 # General Variables
 # ---------------------------------------------------------------------------------------------------------------------
 
-tf_workspaces  = ["network","app"]
-team_name      = "ej"
-environment    = "dev"
-appname        = "newapp1"
+tf_workspaces  = ["ej-landing","ej-app"]
+team_name      = "ej1"
+environment    = "test"
+appname        = "tim"
 
 
 
@@ -13,5 +13,5 @@ appname        = "newapp1"
 # Other Variables
 # ---------------------------------------------------------------------------------------------------------------------
 # 
-testvar_name   = "ak"
+testvar_name   = "me"
 testvar_value  = "myvalue"
