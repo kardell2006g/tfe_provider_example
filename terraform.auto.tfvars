@@ -6,6 +6,7 @@ tf_workspaces  = ["cgi-network","cgi-app"]
 team_name      = "cgi-admins"
 environment    = "dev"
 appname        = "aci"
+repo           = "non-templated-name"
 
 
 
