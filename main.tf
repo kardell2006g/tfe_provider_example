@@ -74,12 +74,12 @@ resource "tfe_team_project_access" "test" {
  // organization = var.tf_organization
 //}
 
-resource "tfe_workspace_variable_set" "test"{
-    for_each = { for k, v in tfe_workspace.test:
-    k => v.id }
-  variable_set_id   = data.tfe_variable_set.test.id
-  workspace_id      = each.value
-}
+//resource "tfe_workspace_variable_set" "test"{
+ //   for_each = { for k, v in tfe_workspace.test:
+ //   k => v.id }
+//  variable_set_id   = data.tfe_variable_set.test.id
+ // workspace_id      = each.value
+//}
 
 
 
