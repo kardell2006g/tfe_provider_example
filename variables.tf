@@ -1,12 +1,12 @@
 
 variable "tf_hostname"{
 type = string
-default = "app.terraform.io"
+default = "tfe.aws.akdemos.com"
 }
 
 variable "tf_organization" {
   type = string
-  default = "gekk0"
+  default = "ER"
 }
 
 //variable "tf_project" {
