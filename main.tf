@@ -69,10 +69,10 @@ resource "tfe_team_project_access" "test" {
   project_id   = tfe_project.test.id
 }
 
-data "tfe_variable_set" "test" {
-  name         = local.varset
-  organization = var.tf_organization
-}
+//data "tfe_variable_set" "test" {
+ // name         = local.varset
+ // organization = var.tf_organization
+//}
 
 resource "tfe_workspace_variable_set" "test"{
     for_each = { for k, v in tfe_workspace.test:
