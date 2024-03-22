@@ -2,10 +2,10 @@
 # General Variables
 # ---------------------------------------------------------------------------------------------------------------------
 
-tf_workspaces  = ["cgi-network","cgi-app"]
-team_name      = "cgi-admins"
+tf_workspaces  = ["admins-network","admins-auth"]
+team_name      = "erie-admins"
 environment    = "dev"
-appname        = "aci"
+appname        = "erie-cloud"
 repo           = "non-templated-name"
 
 
@@ -15,4 +15,4 @@ repo           = "non-templated-name"
 # ---------------------------------------------------------------------------------------------------------------------
 # 
 testvar_name   = "winner"
-testvar_value  = "etienne"
+testvar_value  = "vikrant"
