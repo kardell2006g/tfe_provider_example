@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------------------------------------------
 
 tf_workspaces  = ["admins-network","admins-auth"]
-team_name      = "erie-admins"
+team_name      = "erie-admin"
 environment    = "dev"
 appname        = "erie-cloud"
 repo           = "non-templated-name"
