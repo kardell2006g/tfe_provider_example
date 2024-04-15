@@ -2,10 +2,10 @@
 # General Variables
 # ---------------------------------------------------------------------------------------------------------------------
 
-tf_workspaces  = ["admins-network","admins-auth"]
-team_name      = "erie-admin"
-environment    = "dev"
-appname        = "erie-cloud"
+tf_workspaces  = ["magna1","magna2"]
+team_name      = "magna-admin"
+environment    = "sandbox"
+appname        = "magna-demo"
 repo           = "non-templated-name"
 
 
@@ -14,5 +14,5 @@ repo           = "non-templated-name"
 # Other Variables
 # ---------------------------------------------------------------------------------------------------------------------
 # 
-testvar_name   = "winner"
-testvar_value  = "vikrant"
+testvar_name   = "best"
+testvar_value  = "andreas"
